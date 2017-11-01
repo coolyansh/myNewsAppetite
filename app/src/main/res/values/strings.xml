@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">"my News Appetite "</string>
+    <string name="world">"World "</string>
+    <string name="home">"Home "</string>
+    <string name="tech">"Technology "</string>
+    <string name="science">"Science "</string>
+    <string name="business">"Business "</string>
+    <string name="sports">"Sports "</string>
+    <string name="cricket">"Cricket "</string>
+    <string name="open">"Open"</string>
+    <string name="close">"Close"</string>
+</resources>

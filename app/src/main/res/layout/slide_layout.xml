@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_layout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="210dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:src="@drawable/background"
+        android:scaleType="fitXY"
+        android:id="@+id/slide_image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingLeft="5dp"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        tools:text="Please Refresh or go to Bookmarks section to view Saved items"
+        android:id="@+id/description"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:background="#80333735"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+
+</RelativeLayout>
