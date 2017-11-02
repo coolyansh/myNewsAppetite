@@ -230,7 +230,8 @@ public class InfoActivity extends AppCompatActivity{
         public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
             View view= inflater.inflate(R.layout.card_back,container,false);
             TextView textView=(TextView)view.findViewById(R.id.text_back);
-            textView.setText("Shreyansh Ray \n coolyansh@gmail.com\n+91 8444905943");
+            textView.setTextSize(TypedValue.COMPLEX_UNIT_SP,17);
+            textView.setText("Shreyansh Ray \n rayshreyansh06@gmail.com\n+91 8444905943");
             return view;
         }
     }
@@ -253,8 +254,8 @@ public class InfoActivity extends AppCompatActivity{
         public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
             View view= inflater.inflate(R.layout.card_back,container,false);
             TextView textView=(TextView)view.findViewById(R.id.text_back);
-            textView.setTextSize(TypedValue.COMPLEX_UNIT_SP,15);
-            textView.setText("Powered by https://newsapi.org\nIcons from : \nhttps://www.freepik.com/\nhttps://icons8.com/ ");
+            textView.setTextSize(TypedValue.COMPLEX_UNIT_SP,16);
+            textView.setText("API SOURCE \nhttps://newsapi.org");
             return view;
         }
     }
